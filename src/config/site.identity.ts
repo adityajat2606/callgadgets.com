@@ -1,10 +1,10 @@
 export const siteIdentity = {
   code: process.env.NEXT_PUBLIC_SITE_CODE || 'cg4x9m2q7v',
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Call Gadgets',
-  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Visual classified platform',
+  tagline: process.env.NEXT_PUBLIC_SITE_TAGLINE || 'Deals, drops, and image-led gadget finds',
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    'A hybrid marketplace for image-first discoveries, quick deals, and classified-style publishing.',
+    'A fast-moving marketplace-style platform for gadget classifieds, image-led posts, and product discoveries.',
   domain: process.env.NEXT_PUBLIC_SITE_DOMAIN || 'callgadgets.com',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://callgadgets.com',
   ogImage: process.env.NEXT_PUBLIC_SITE_OG_IMAGE || '/og-default.png',
